@@ -11,4 +11,10 @@
  ![front_end_working](https://github.com/Navya41/Genesis1.0_voting_system/assets/73978927/51758167-2826-4527-a3ba-ed8d00e34b46)
  ![solidity](https://github.com/Navya41/Genesis1.0_voting_system/assets/73978927/b8ca48d9-dbe2-46a0-b8d8-471e2802894a)
 
- 
+ ## Members
+ * https://github.com/Navya41
+ * https://github.com/praneethatanikella
+ * https://github.com/dishaa199
+ * https://github.com/Laakhishiv6
+
+   
