@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Voting System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #add8e6;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            background-color: #20b2aa;
+            padding: 20px;
+            margin: 0;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        select, button {
+            background-color: #20b2aa;
+            color: black;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #008080;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Blockchain Voting System</h1>
+
+    <form id="votingForm">
+        <label for="voterName">Your Name:</label>
+        <input type="text" id="voterName" name="voterName" required>
+
+        <label for="candidate">Choose Candidate:</label>
+        <select id="candidate" name="candidate" required>
+            <option value="candidate1">Candidate 1</option>
+            <option value="candidate2">Candidate 2</option>
+            <option value="candidate3">Candidate 3</option>
+            <option value="candidate4">Candidate 4</option>
+            <!-- Add more options for other candidates -->
+        </select>
+
+        <button type="button" onclick="submitVote()">Submit Vote</button>
+    </form>
+
+
+    <script>
+        function submitVote() {
+            var voterName = document.getElementById('voterName').value;
+            var selectedCandidate = document.getElementById('candidate').value;
+
+            console.log('Vote submitted by ' + voterName + ' for ' + selectedCandidate);
+            alert('Vote submitted successfully!');
+        }
+    </script>
+
+</body>
+</html>
