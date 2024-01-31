@@ -8,6 +8,8 @@
  HTML, CSS, Javascript, node.js, Solidity, Smart Contracts
 
  ## Screenshots
- ![Front-end ss](C:\Users\91844\Desktop)
- ![Smart Contracts deployed on Remix IDE]("C:\Users\91844\Desktop\solidity.jpg")
+ ![Front-end ss](![front_end_working](https://github.com/Navya41/Genesis1.0_voting_system/assets/73978927/51758167-2826-4527-a3ba-ed8d00e34b46)
+)
+ ![Smart Contracts deployed on Remix IDE](![solidity](https://github.com/Navya41/Genesis1.0_voting_system/assets/73978927/b8ca48d9-dbe2-46a0-b8d8-471e2802894a)
+)
  
